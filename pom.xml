@@ -52,6 +52,11 @@
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.0.2</version>
         </plugin>
+        <execution>
+        <goals>
+          <goal>jar</goal>
+          </goal>
+          </execution>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
           <version>2.5.2</version>
